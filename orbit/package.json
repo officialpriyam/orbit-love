@@ -1,0 +1,38 @@
+{
+  "name": "orbit-by-priyx",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "db:init": "tsx --env-file-if-exists=.env.local scripts/init-db.ts",
+    "admin:create": "tsx --env-file-if-exists=.env.local scripts/create-admin.ts",
+    "build:preview": "node scripts/build-preview.mjs",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src scripts tests"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.35.6",
+    "next": "^16.0.0",
+    "pg": "^8.16.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.12"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/pg": "^8",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "playwright-core": "^1.65.1",
+    "prettier": "^3.10.1",
+    "tsx": "^4.20",
+    "typescript": "^5.9.3"
+  }
+}

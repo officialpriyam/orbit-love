@@ -1,0 +1,15 @@
+# The Vercel project's Root Directory must be orbit.
+orbit-matching-service/
+mira-portfolio/
+.openai/
+.pytest_cache/
+**/.env
+**/.env.local
+**/.env.*.local
+**/.venv/
+**/__pycache__/
+**/.local/
+**/node_modules/
+**/.next/
+**/.preview-build/
+**/dist/

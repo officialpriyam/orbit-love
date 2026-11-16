@@ -1,0 +1,10 @@
+node_modules
+.next
+.venv
+.git
+.env*
+.local
+.preview-build
+dist
+backend
+tests

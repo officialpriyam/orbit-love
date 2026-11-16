@@ -1,0 +1,1522 @@
+[
+  {
+    "text": "Your social battery in a room full of new people:",
+    "id": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "Endless—I talk to everyone and make friends instantly"
+      },
+      {
+        "id": "B",
+        "text": "High—I enjoy socializing, then need a quiet evening to recharge"
+      },
+      {
+        "id": "C",
+        "text": "Selective—I stick to 2 or 3 people I actually vibe with"
+      },
+      {
+        "id": "D",
+        "text": "Observer—I listen more than I talk until I feel comfortable"
+      },
+      {
+        "id": "E",
+        "text": "Low—I prefer 1-on-1 hangouts over group settings"
+      },
+      {
+        "id": "F",
+        "text": "Situational—extroverted with friends, completely silent with strangers"
+      },
+      {
+        "id": "G",
+        "text": "Moody—depends entirely on my energy level that day"
+      },
+      {
+        "id": "H",
+        "text": "Drained—I’m already thinking about going home"
+      }
+    ]
+  },
+  {
+    "text": "When making a major life or career decision, you rely on:",
+    "id": 2,
+    "options": [
+      {
+        "id": "A",
+        "text": "Cold, hard logic, pros/cons lists, and data"
+      },
+      {
+        "id": "B",
+        "text": "Gut instinct and emotional intuition"
+      },
+      {
+        "id": "C",
+        "text": "Practicality, stability, and long-term financial sense"
+      },
+      {
+        "id": "D",
+        "text": "Advice from parents, mentors, or close friends"
+      },
+      {
+        "id": "E",
+        "text": "Spontaneity—take the risk and figure it out later"
+      },
+      {
+        "id": "F",
+        "text": "Past experiences and lessons learned"
+      },
+      {
+        "id": "G",
+        "text": "Overthinking every possible worst-case scenario first"
+      },
+      {
+        "id": "H",
+        "text": "Passion—doing whatever excites me most right now"
+      }
+    ]
+  },
+  {
+    "text": "How do you handle conflict or an argument with someone close?",
+    "id": 3,
+    "options": [
+      {
+        "id": "A",
+        "text": "Address it immediately and talk it out calmly"
+      },
+      {
+        "id": "B",
+        "text": "Need 1–2 hours of space to cool off before discussing"
+      },
+      {
+        "id": "C",
+        "text": "Use humor or sarcasm to lighten the mood first"
+      },
+      {
+        "id": "D",
+        "text": "Apologize quickly just to keep the peace, even if I'm right"
+      },
+      {
+        "id": "E",
+        "text": "Send a long, well-thought-out text explaining my side"
+      },
+      {
+        "id": "F",
+        "text": "Go quiet and distance myself until the tension fades"
+      },
+      {
+        "id": "G",
+        "text": "Get defensive initially, then reflect and come back later"
+      },
+      {
+        "id": "H",
+        "text": "Avoid confrontation completely and pretend nothing happened"
+      }
+    ]
+  },
+  {
+    "text": "How organized is your daily life and routine?",
+    "id": 4,
+    "options": [
+      {
+        "id": "A",
+        "text": "Strictly planned—to-do lists, reminders, and fixed schedules"
+      },
+      {
+        "id": "B",
+        "text": "Organized chaos—messy desk, but I know where everything is"
+      },
+      {
+        "id": "C",
+        "text": "Semi-structured—plan the big stuff, wing the rest"
+      },
+      {
+        "id": "D",
+        "text": "Night owl—most productive between 11 PM and 3 AM"
+      },
+      {
+        "id": "E",
+        "text": "Early bird—up at 6 AM, disciplined routine"
+      },
+      {
+        "id": "F",
+        "text": "Completely spontaneous—zero plans, pure \"let's see\" energy"
+      },
+      {
+        "id": "G",
+        "text": "Procrastinator—do everything at the absolute last minute"
+      },
+      {
+        "id": "H",
+        "text": "Trying to build a routine, failing every Monday"
+      }
+    ]
+  },
+  {
+    "text": "Your sense of humor is best described as:",
+    "id": 5,
+    "options": [
+      {
+        "id": "A",
+        "text": "Pure desi sarcasm and harmless roasting"
+      },
+      {
+        "id": "B",
+        "text": "Niche internet memes, reels, and brainrot"
+      },
+      {
+        "id": "C",
+        "text": "Dry, deadpan, and subtle one-liners"
+      },
+      {
+        "id": "D",
+        "text": "Filmy—dropping Bollywood/movie dialogues in normal conversations"
+      },
+      {
+        "id": "E",
+        "text": "Wholesome, goofy, and easily amused"
+      },
+      {
+        "id": "F",
+        "text": "Dark or twisted humor (only with people who get it)"
+      },
+      {
+        "id": "G",
+        "text": "Self-deprecating overthinker jokes"
+      },
+      {
+        "id": "H",
+        "text": "Unintentionally funny without trying"
+      }
+    ]
+  },
+  {
+    "text": "When you’re stressed, overwhelmed, or having a terrible day, you:",
+    "id": 6,
+    "options": [
+      {
+        "id": "A",
+        "text": "Go for a solo bike/car ride or long walk with loud music"
+      },
+      {
+        "id": "B",
+        "text": "Vent everything out to one trusted friend"
+      },
+      {
+        "id": "C",
+        "text": "Disappear from social media and sleep it off"
+      },
+      {
+        "id": "D",
+        "text": "Stress-eat spicy street food or order dessert"
+      },
+      {
+        "id": "E",
+        "text": "Hit the gym, run, or play a sport to burn it off"
+      },
+      {
+        "id": "F",
+        "text": "Overthink at 3 AM staring at the ceiling"
+      },
+      {
+        "id": "G",
+        "text": "Distract yourself with work, coding, gaming, or studying"
+      },
+      {
+        "id": "H",
+        "text": "Watch a comfort movie or listen to sad playlists to let it out"
+      }
+    ]
+  },
+  {
+    "text": "Your honesty and communication style:",
+    "id": 7,
+    "options": [
+      {
+        "id": "A",
+        "text": "Brutally honest—I say what I mean without sugarcoating"
+      },
+      {
+        "id": "B",
+        "text": "Tactful—honest, but careful not to hurt feelings"
+      },
+      {
+        "id": "C",
+        "text": "Diplomat—keeps things polite and avoids awkwardness"
+      },
+      {
+        "id": "D",
+        "text": "Expressive—my face shows everything I’m thinking anyway"
+      },
+      {
+        "id": "E",
+        "text": "Reserved—takes a long time before I open up completely"
+      },
+      {
+        "id": "F",
+        "text": "Playful—communicates mostly through teasing and banter"
+      },
+      {
+        "id": "G",
+        "text": "Over-explainer—wants to make sure there are zero misunderstandings"
+      },
+      {
+        "id": "H",
+        "text": "Minimalist—short answers, actions over words"
+      }
+    ]
+  },
+  {
+    "text": "What motivates you the most right now?",
+    "id": 8,
+    "options": [
+      {
+        "id": "A",
+        "text": "Financial independence and building wealth early"
+      },
+      {
+        "id": "B",
+        "text": "Mastering a skill, tech, art, or craft"
+      },
+      {
+        "id": "C",
+        "text": "Traveling, exploring new places, and collecting experiences"
+      },
+      {
+        "id": "D",
+        "text": "Making my family proud and giving them a better life"
+      },
+      {
+        "id": "E",
+        "text": "Freedom—never being stuck in a boring 9-to-5 box"
+      },
+      {
+        "id": "F",
+        "text": "Peace of mind, good health, and a stress-free life"
+      },
+      {
+        "id": "G",
+        "text": "Fame, recognition, or making a visible impact"
+      },
+      {
+        "id": "H",
+        "text": "Deep connections, friendships, and loyalty"
+      }
+    ]
+  },
+  {
+    "text": "Your ideal weekend evening hangout plan:",
+    "id": 9,
+    "options": [
+      {
+        "id": "A",
+        "text": "Tapri tea, snacks, and deep life talks with the gang"
+      },
+      {
+        "id": "B",
+        "text": "Clubbing, loud music, and late-night parties"
+      },
+      {
+        "id": "C",
+        "text": "Aesthetic café hopping for coffee and photos"
+      },
+      {
+        "id": "D",
+        "text": "Long late-night bike/car drive with a solid playlist"
+      },
+      {
+        "id": "E",
+        "text": "Street food run (momos, chaat, shawarma, rolls)"
+      },
+      {
+        "id": "F",
+        "text": "Staying in bed binging shows/anime with Swiggy/Zomato"
+      },
+      {
+        "id": "G",
+        "text": "All-night Discord gaming or movie watch-party"
+      },
+      {
+        "id": "H",
+        "text": "Solo gym session, walk, or working on a personal project"
+      }
+    ]
+  },
+  {
+    "text": "Your ultimate non-negotiable comfort food/drink:",
+    "id": 10,
+    "options": [
+      {
+        "id": "A",
+        "text": "Adrak/masala chai and Maggi"
+      },
+      {
+        "id": "B",
+        "text": "Cold coffee, iced latte, or matcha"
+      },
+      {
+        "id": "C",
+        "text": "Spicy street-style momos or chole bhature"
+      },
+      {
+        "id": "D",
+        "text": "Biryani (with raita/salan, obviously)"
+      },
+      {
+        "id": "E",
+        "text": "Burgers, pizza, or loaded fries"
+      },
+      {
+        "id": "F",
+        "text": "Homemade pulses and rice, rajma, or comfort home food"
+      },
+      {
+        "id": "G",
+        "text": "South Indian (masala dosa, idli, filter coffee)"
+      },
+      {
+        "id": "H",
+        "text": "Desserts, brownies, or midnight ice cream"
+      }
+    ]
+  },
+  {
+    "text": "How do you handle money and spending?",
+    "id": 11,
+    "options": [
+      {
+        "id": "A",
+        "text": "Smart saver—tracks expenses and invests/saves first"
+      },
+      {
+        "id": "B",
+        "text": "Balanced—saves sensibly, spends freely on food and experiences"
+      },
+      {
+        "id": "C",
+        "text": "Impulsive—buys things at 2 AM and regrets it tomorrow"
+      },
+      {
+        "id": "D",
+        "text": "Generous—always the first to split or treat friends"
+      },
+      {
+        "id": "E",
+        "text": "Minimalist—doesn't care about brands, spends only on essentials"
+      },
+      {
+        "id": "F",
+        "text": "Foodie spender—80% of my budget goes to Zomato and cafés"
+      },
+      {
+        "id": "G",
+        "text": "Tech/hobby spender—saves for months to buy good gear"
+      },
+      {
+        "id": "H",
+        "text": "Broke by the 20th of every month, surviving on UPI prayers"
+      }
+    ]
+  },
+  {
+    "text": "How do you usually commute or get around the city?",
+    "id": 12,
+    "options": [
+      {
+        "id": "A",
+        "text": "Bike or scooty—love the wind and beating traffic"
+      },
+      {
+        "id": "B",
+        "text": "Car—AC on full blast and full control of the music"
+      },
+      {
+        "id": "C",
+        "text": "Metro/local train—earphones in, main-character window stare"
+      },
+      {
+        "id": "D",
+        "text": "Auto/e-rickshaw—bargaining with the driver is a sport"
+      },
+      {
+        "id": "E",
+        "text": "Cab (Uber/Ola/Rapido)—comfort over everything"
+      },
+      {
+        "id": "F",
+        "text": "Walking everywhere if it’s under 2–3 km"
+      },
+      {
+        "id": "G",
+        "text": "Passenger princess/prince—relying on friends who drive"
+      },
+      {
+        "id": "H",
+        "text": "Barely leave my room unless it’s mandatory"
+      }
+    ]
+  },
+  {
+    "text": "Your relationship with fitness, sports, and health:",
+    "id": 13,
+    "options": [
+      {
+        "id": "A",
+        "text": "Gym rat—lifting weights 5–6 days a week, tracking macros"
+      },
+      {
+        "id": "B",
+        "text": "Sporty—cricket, football, badminton, or running regularly"
+      },
+      {
+        "id": "C",
+        "text": "Casual—walks, yoga, or home workouts when motivated"
+      },
+      {
+        "id": "D",
+        "text": "Seasonal—gets super serious for 2 weeks every 3 months"
+      },
+      {
+        "id": "E",
+        "text": "Diet-conscious—tries to eat clean, rarely works out"
+      },
+      {
+        "id": "F",
+        "text": "High metabolism—eats anything and everything without trying"
+      },
+      {
+        "id": "G",
+        "text": "Couch potato—walking to the fridge counts as cardio"
+      },
+      {
+        "id": "H",
+        "text": "Trying to start a fitness journey soon"
+      }
+    ]
+  },
+  {
+    "text": "What is your college / work personality?",
+    "id": 14,
+    "options": [
+      {
+        "id": "A",
+        "text": "Front-bencher / top performer—notes and deadlines always ready"
+      },
+      {
+        "id": "B",
+        "text": "Back-bencher—surviving on proxy attendance and last-minute prep"
+      },
+      {
+        "id": "C",
+        "text": "Fest / event organizer—running around managing chaos"
+      },
+      {
+        "id": "D",
+        "text": "Canteen regular—attends more chai breaks than classes/meetings"
+      },
+      {
+        "id": "E",
+        "text": "The \"one night before exam\" miracle worker"
+      },
+      {
+        "id": "F",
+        "text": "Quietly building side projects, startups, or freelancing"
+      },
+      {
+        "id": "G",
+        "text": "Campus athlete / club leader"
+      },
+      {
+        "id": "H",
+        "text": "Ghost mode—shows up only when attendance hits 74%"
+      }
+    ]
+  },
+  {
+    "text": "Your sleep schedule on a normal week:",
+    "id": 15,
+    "options": [
+      {
+        "id": "A",
+        "text": "Disciplined—asleep by 11 PM, awake by 7 AM"
+      },
+      {
+        "id": "B",
+        "text": "Standard—1 AM to 8 AM"
+      },
+      {
+        "id": "C",
+        "text": "Late-night owl—3 AM to 10 AM"
+      },
+      {
+        "id": "D",
+        "text": "Broken—4 hours at night + a 2-hour afternoon nap"
+      },
+      {
+        "id": "E",
+        "text": "Vampire—sleeps at sunrise, wakes up in the afternoon"
+      },
+      {
+        "id": "F",
+        "text": "Random—changes every single day"
+      },
+      {
+        "id": "G",
+        "text": "Heavy sleeper—can sleep through 15 alarms"
+      },
+      {
+        "id": "H",
+        "text": "Light sleeper—wakes up at the slightest sound"
+      }
+    ]
+  },
+  {
+    "text": "How neat or messy is your personal space (room/desk)?",
+    "id": 16,
+    "options": [
+      {
+        "id": "A",
+        "text": "Spotless—everything has an exact place"
+      },
+      {
+        "id": "B",
+        "text": "Clean—tidied up every couple of days"
+      },
+      {
+        "id": "C",
+        "text": "Functional mess—clothes on the chair, clean bed"
+      },
+      {
+        "id": "D",
+        "text": "Digital neat, physical messy—clean desktop, chaotic room"
+      },
+      {
+        "id": "E",
+        "text": "Aesthetic—LED lights, posters, curated setup"
+      },
+      {
+        "id": "F",
+        "text": "Minimalist—barely owns anything so there’s nothing to mess up"
+      },
+      {
+        "id": "G",
+        "text": "Cleaned only when guests or parents are visiting"
+      },
+      {
+        "id": "H",
+        "text": "Permanent tornado zone"
+      }
+    ]
+  },
+  {
+    "text": "What dominates your Spotify / YouTube Music playlists?",
+    "id": 17,
+    "options": [
+      {
+        "id": "A",
+        "text": "Bollywood romantic & 2000s nostalgia (Pritam, Arijit, KK, Atif)"
+      },
+      {
+        "id": "B",
+        "text": "Desi Hip-Hop / DHH (Seedhe Maut, KR$NA, Divine, Raftaar)"
+      },
+      {
+        "id": "C",
+        "text": "Punjabi pop & hype tracks (Diljit, Karan Aujla, AP Dhillon)"
+      },
+      {
+        "id": "D",
+        "text": "Indie Hindi / Indie Pop (Anuv Jain, Prateek Kuhad, The Local Train)"
+      },
+      {
+        "id": "E",
+        "text": "Western Pop / R&B / Hip-Hop (The Weeknd, Lana, Travis Scott, Taylor)"
+      },
+      {
+        "id": "F",
+        "text": "Techno, House, Phonk, or EDM"
+      },
+      {
+        "id": "G",
+        "text": "Old-school classics (Kishore Kumar, Mohd. Rafi, ghazals)"
+      },
+      {
+        "id": "H",
+        "text": "Lo-fi, anime OSTs, or instrumental/gaming tracks"
+      }
+    ]
+  },
+  {
+    "text": "Your go-to screen entertainment when relaxing:",
+    "id": 18,
+    "options": [
+      {
+        "id": "A",
+        "text": "Comfort Bollywood movies (YJHD, Jab We Met, ZNMD, 3 Idiots)"
+      },
+      {
+        "id": "B",
+        "text": "Indian web series (Panchayat, Mirzapur, Family Man, Gullak)"
+      },
+      {
+        "id": "C",
+        "text": "Anime, K-dramas, or C-dramas"
+      },
+      {
+        "id": "D",
+        "text": "Hollywood thrillers, sci-fi, or crime documentaries"
+      },
+      {
+        "id": "E",
+        "text": "Sitcoms (The Office, Friends, Brooklyn 99, Modern Family)"
+      },
+      {
+        "id": "F",
+        "text": "YouTube video essays, tech reviews, or podcasts"
+      },
+      {
+        "id": "G",
+        "text": "Live cricket, football, F1, or esports tournaments"
+      },
+      {
+        "id": "H",
+        "text": "Stand-up comedy specials"
+      }
+    ]
+  },
+  {
+    "text": "Your Instagram & social media personality:",
+    "id": 19,
+    "options": [
+      {
+        "id": "A",
+        "text": "Aesthetic photo dumps, soft-launch stories, curated highlights"
+      },
+      {
+        "id": "B",
+        "text": "Private account, zero posts, strictly there to watch reels"
+      },
+      {
+        "id": "C",
+        "text": "Meme dealer—sends 25 reels a day to close friends"
+      },
+      {
+        "id": "D",
+        "text": "Active on Close Friends story with unfiltered rants and updates"
+      },
+      {
+        "id": "E",
+        "text": "Creator / photographer / posting edits, code, or art"
+      },
+      {
+        "id": "F",
+        "text": "Ghost—replies to DMs after 3 to 5 business days"
+      },
+      {
+        "id": "G",
+        "text": "Low-key observer—knows everyone’s lore, posts once a year"
+      },
+      {
+        "id": "H",
+        "text": "More active on Discord, Reddit, or X (Twitter) than Instagram"
+      }
+    ]
+  },
+  {
+    "text": "What is your texting and calling style?",
+    "id": 20,
+    "options": [
+      {
+        "id": "A",
+        "text": "Instant replies and long, detailed paragraphs"
+      },
+      {
+        "id": "B",
+        "text": "Rapid-fire short texts, memes, and reactions"
+      },
+      {
+        "id": "C",
+        "text": "Voice notes—too lazy to type long messages"
+      },
+      {
+        "id": "D",
+        "text": "Prefers a 10-minute phone call over 50 text messages"
+      },
+      {
+        "id": "E",
+        "text": "Replies fast when free, disappears completely when busy"
+      },
+      {
+        "id": "F",
+        "text": "Reads the notification, mentally replies, forgets for 6 hours"
+      },
+      {
+        "id": "G",
+        "text": "Dry texter on chat, super talkative in real life"
+      },
+      {
+        "id": "H",
+        "text": "Late-night texter—most active after midnight"
+      }
+    ]
+  },
+  {
+    "text": "How do you feel about gaming and tech?",
+    "id": 21,
+    "options": [
+      {
+        "id": "A",
+        "text": "Hardcore gamer—Valorant, BGMI, CS, GTA, or story games"
+      },
+      {
+        "id": "B",
+        "text": "Casual gamer—FIFA/FC, Minecraft, or mobile games with friends"
+      },
+      {
+        "id": "C",
+        "text": "Tech nerd—loves gadgets, AI, coding, and custom setups"
+      },
+      {
+        "id": "D",
+        "text": "Board/card games only—UNO, Monopoly, chess, Ludo"
+      },
+      {
+        "id": "E",
+        "text": "Watches gaming streams/esports but rarely plays"
+      },
+      {
+        "id": "F",
+        "text": "Only plays party games when hanging out in a group"
+      },
+      {
+        "id": "G",
+        "text": "Not into gaming at all—prefers outdoor or creative hobbies"
+      },
+      {
+        "id": "H",
+        "text": "Anti-screen—tries to stay off devices as much as possible"
+      }
+    ]
+  },
+  {
+    "text": "Your travel style when going on a trip with friends:",
+    "id": 22,
+    "options": [
+      {
+        "id": "A",
+        "text": "The Planner—Excel sheet with train timings, hotels, and budget"
+      },
+      {
+        "id": "B",
+        "text": "The Navigator—handles Google Maps, playlists, and aux control"
+      },
+      {
+        "id": "C",
+        "text": "The Photographer—takes great candid shots of everyone"
+      },
+      {
+        "id": "D",
+        "text": "The Spontaneous One—changes plans midway for hidden spots"
+      },
+      {
+        "id": "E",
+        "text": "The Chill Passenger—just shows up, pays their share, zero complaints"
+      },
+      {
+        "id": "F",
+        "text": "The Adventurer—wants trekking, rafting, and sunrise hikes"
+      },
+      {
+        "id": "G",
+        "text": "The Luxury Lover—good hotels, cafés, and comfort over backpacking"
+      },
+      {
+        "id": "H",
+        "text": "The One Who Almost Cancelled—needs convincing till the last hour"
+      }
+    ]
+  },
+  {
+    "text": "Pick a Sunday afternoon activity:",
+    "id": 23,
+    "options": [
+      {
+        "id": "A",
+        "text": "Watching a live cricket/football match with snacks"
+      },
+      {
+        "id": "B",
+        "text": "Sleeping till 2 PM and eating a massive biryani lunch"
+      },
+      {
+        "id": "C",
+        "text": "Reading a book or journaling at a quiet café"
+      },
+      {
+        "id": "D",
+        "text": "Working on a side hustle, coding, or learning something new"
+      },
+      {
+        "id": "E",
+        "text": "Shopping, thrifting, or window-shopping at a mall/market"
+      },
+      {
+        "id": "F",
+        "text": "Playing sports or hitting the gym"
+      },
+      {
+        "id": "G",
+        "text": "Visiting a museum, art gallery, or heritage spot"
+      },
+      {
+        "id": "H",
+        "text": "Calling family/friends and catching up for hours"
+      }
+    ]
+  },
+  {
+    "text": "What kind of aesthetic or style do you naturally lean toward?",
+    "id": 24,
+    "options": [
+      {
+        "id": "A",
+        "text": "Clean, minimal, and classic (solids, neutral colors, neat fit)"
+      },
+      {
+        "id": "B",
+        "text": "Streetwear—oversized tees, charges, sneakers"
+      },
+      {
+        "id": "C",
+        "text": "Desi / ethnic—kurtas, jhumkas, traditional fits whenever possible"
+      },
+      {
+        "id": "D",
+        "text": "Comfort first—hoodies, tracks, and Crocs/slides everywhere"
+      },
+      {
+        "id": "E",
+        "text": "Sharp & formal—shirts, watches, clean tailored look"
+      },
+      {
+        "id": "F",
+        "text": "Thrift / vintage / indie-artsy style"
+      },
+      {
+        "id": "G",
+        "text": "Athleisure—gym wear that doubles as daily wear"
+      },
+      {
+        "id": "H",
+        "text": "Zero fashion sense—wears whatever is clean and on top of the pile"
+      }
+    ]
+  },
+  {
+    "text": "What is your primary Love Language?",
+    "id": 25,
+    "options": [
+      {
+        "id": "A",
+        "text": "Quality time—undivided attention without checking phones"
+      },
+      {
+        "id": "B",
+        "text": "Words of affirmation—compliments, reassurance, deep talks"
+      },
+      {
+        "id": "C",
+        "text": "Physical touch—holding hands, hugs, sitting close"
+      },
+      {
+        "id": "D",
+        "text": "Acts of service—helping out, bringing food, solving problems"
+      },
+      {
+        "id": "E",
+        "text": "Thoughtful gifting—remembering small things they mentioned once"
+      },
+      {
+        "id": "F",
+        "text": "Banter & roasting—showing affection through playful teasing"
+      },
+      {
+        "id": "G",
+        "text": "Shared playlists, reels, and late-night calls"
+      },
+      {
+        "id": "H",
+        "text": "Loyalty & protection—always having their back publicly and privately"
+      }
+    ]
+  },
+  {
+    "text": "How do you act when you actually like someone?",
+    "id": 26,
+    "options": [
+      {
+        "id": "A",
+        "text": "Full filmy mode—making playlists and noticing tiny details"
+      },
+      {
+        "id": "B",
+        "text": "Roast and tease them relentlessly to hide nervousness"
+      },
+      {
+        "id": "C",
+        "text": "Send them very specific reels hoping they catch the hint"
+      },
+      {
+        "id": "D",
+        "text": "Stare from across the room/campus and make zero moves"
+      },
+      {
+        "id": "E",
+        "text": "Find excuses to ask for notes, advice, or small favors"
+      },
+      {
+        "id": "F",
+        "text": "Direct and confident—ask them out for chai or coffee clearly"
+      },
+      {
+        "id": "G",
+        "text": "Overanalyze every single text, emoji, and \"seen\" timestamp"
+      },
+      {
+        "id": "H",
+        "text": "Act weirdly distant or formal out of shyness"
+      }
+    ]
+  },
+  {
+    "text": "Your ideal first date:",
+    "id": 27,
+    "options": [
+      {
+        "id": "A",
+        "text": "Kulhad chai/coffee at a quiet spot and walking for hours"
+      },
+      {
+        "id": "B",
+        "text": "Bowling, arcade, or go-karting for friendly competition"
+      },
+      {
+        "id": "C",
+        "text": "Sharing momos/street food and watching the sunset"
+      },
+      {
+        "id": "D",
+        "text": "Cozy café date with good food and board games"
+      },
+      {
+        "id": "E",
+        "text": "Late-night ice cream run or long drive with music"
+      },
+      {
+        "id": "F",
+        "text": "Bookstore, museum, or art gallery date"
+      },
+      {
+        "id": "G",
+        "text": "Watching a movie or live match together"
+      },
+      {
+        "id": "H",
+        "text": "Spontaneous road trip or exploring an old part of the city"
+      }
+    ]
+  },
+  {
+    "text": "What is your #1 non-negotiable Green Flag in a partner?",
+    "id": 28,
+    "options": [
+      {
+        "id": "A",
+        "text": "Respectful to waiters, drivers, and everyone around them"
+      },
+      {
+        "id": "B",
+        "text": "Emotionally mature—communicates instead of ghosting or playing games"
+      },
+      {
+        "id": "C",
+        "text": "Great sense of humor and doesn't take life too seriously"
+      },
+      {
+        "id": "D",
+        "text": "Good listener who remembers tiny details from past conversations"
+      },
+      {
+        "id": "E",
+        "text": "Ambitious, driven, and passionate about their own goals"
+      },
+      {
+        "id": "F",
+        "text": "Gives healthy personal space and trusts without being controlling"
+      },
+      {
+        "id": "G",
+        "text": "Effortless conversationalist—zero awkward silences"
+      },
+      {
+        "id": "H",
+        "text": "Fiercely loyal and honest even when it’s inconvenient"
+      }
+    ]
+  },
+  {
+    "text": "What is your biggest Red Flag / instant turn-off?",
+    "id": 29,
+    "options": [
+      {
+        "id": "A",
+        "text": "Rudeness or arrogance toward service staff or juniors"
+      },
+      {
+        "id": "B",
+        "text": "Hot-and-cold behavior, ghosting, or mind games"
+      },
+      {
+        "id": "C",
+        "text": "Constantly glued to their phone during a hangout"
+      },
+      {
+        "id": "D",
+        "text": "Zero ambition or complaining about everything without trying"
+      },
+      {
+        "id": "E",
+        "text": "Inability to apologize or admit when they are wrong"
+      },
+      {
+        "id": "F",
+        "text": "Overly possessive, jealous, or controlling behavior"
+      },
+      {
+        "id": "G",
+        "text": "Dry, one-word replies and zero effort to keep a conversation going"
+      },
+      {
+        "id": "H",
+        "text": "Fake personality—acting totally different in front of friends"
+      }
+    ]
+  },
+  {
+    "text": "How fast do you usually catch feelings or get attached?",
+    "id": 30,
+    "options": [
+      {
+        "id": "A",
+        "text": "Slow burn—takes months of friendship before I catch feelings"
+      },
+      {
+        "id": "B",
+        "text": "Moderate—needs a few good conversations and hangouts"
+      },
+      {
+        "id": "C",
+        "text": "Fast—if the vibe and humor match, I’m hooked quickly"
+      },
+      {
+        "id": "D",
+        "text": "Guarded—takes a long time for me to trust someone fully"
+      },
+      {
+        "id": "E",
+        "text": "Logical—I evaluate compatibility before letting myself fall"
+      },
+      {
+        "id": "F",
+        "text": "Hopeless romantic—I fall for effort and kindness easily"
+      },
+      {
+        "id": "G",
+        "text": "Unpredictable—rarely happens, but when it does, it’s intense"
+      },
+      {
+        "id": "H",
+        "text": "Independent—I enjoy dating, but keep emotional boundaries early on"
+      }
+    ]
+  },
+  {
+    "text": "Ideal balance between \"us time\" and \"me time\" in a relationship:",
+    "id": 31,
+    "options": [
+      {
+        "id": "A",
+        "text": "Best friends first—want to hang out and talk almost every day"
+      },
+      {
+        "id": "B",
+        "text": "Balanced—meet 2–3 times a week, keep independent lives"
+      },
+      {
+        "id": "C",
+        "text": "Busy-friendly—understandable when studies/work take priority"
+      },
+      {
+        "id": "D",
+        "text": "Low-maintenance—don’t need constant texting to feel secure"
+      },
+      {
+        "id": "E",
+        "text": "Shared circle—love hanging out together with mutual friends"
+      },
+      {
+        "id": "F",
+        "text": "Private—keep the relationship low-key and off social media"
+      },
+      {
+        "id": "G",
+        "text": "Spontaneous—meet whenever free, no rigid expectations"
+      },
+      {
+        "id": "H",
+        "text": "High communication—quick check-ins throughout the day"
+      }
+    ]
+  },
+  {
+    "text": "How do you feel about public displays of affection / social media?",
+    "id": 32,
+    "options": [
+      {
+        "id": "A",
+        "text": "Private—zero couple posts, keep things strictly personal"
+      },
+      {
+        "id": "B",
+        "text": "Soft launch—subtle hand/coffee photos on Close Friends"
+      },
+      {
+        "id": "C",
+        "text": "Low-key—occasional birthday/trip post, nothing cheesy"
+      },
+      {
+        "id": "D",
+        "text": "Open—happy to post each other openly without overdoing it"
+      },
+      {
+        "id": "E",
+        "text": "Old-school—letters, polaroids, and private albums over Instagram"
+      },
+      {
+        "id": "F",
+        "text": "Shy in public, expressive in private"
+      },
+      {
+        "id": "G",
+        "text": "Doesn't matter—whatever makes my partner comfortable"
+      },
+      {
+        "id": "H",
+        "text": "Not even active on social media enough to post"
+      }
+    ]
+  },
+  {
+    "text": "You’re both starving, neither can decide where to eat, and it’s 9 PM. What do you do?",
+    "id": 33,
+    "options": [
+      {
+        "id": "A",
+        "text": "Pick a reliable spot immediately and say \"Let’s go, I’m driving\""
+      },
+      {
+        "id": "B",
+        "text": "Narrow it down to 2 options and let them pick one"
+      },
+      {
+        "id": "C",
+        "text": "Open Zomato/Swiggy and scroll for 30 minutes until half the places close"
+      },
+      {
+        "id": "D",
+        "text": "Default to the classic safe choice (biryani, momos, or burgers)"
+      },
+      {
+        "id": "E",
+        "text": "Suggest trying a brand-new place neither of us has visited"
+      },
+      {
+        "id": "F",
+        "text": "Say \"I’m literally fine with anything\" and genuinely mean it"
+      },
+      {
+        "id": "G",
+        "text": "Cook Maggi or eggs at home instead of going out"
+      },
+      {
+        "id": "H",
+        "text": "Flip a coin or spin a wheel"
+      }
+    ]
+  },
+  {
+    "text": "A plan you were excited about gets cancelled at the last minute. Your reaction:",
+    "id": 34,
+    "options": [
+      {
+        "id": "A",
+        "text": "Secretly relieved—now I get to stay in pajamas and relax"
+      },
+      {
+        "id": "B",
+        "text": "Immediately pivot and create a backup plan on the spot"
+      },
+      {
+        "id": "C",
+        "text": "Annoyed for 10 minutes, then completely fine"
+      },
+      {
+        "id": "D",
+        "text": "Turn it into a solo date—grab coffee or watch a movie alone"
+      },
+      {
+        "id": "E",
+        "text": "Call another friend to see who’s free right now"
+      },
+      {
+        "id": "F",
+        "text": "Use the freed-up time to catch up on sleep or pending work"
+      },
+      {
+        "id": "G",
+        "text": "Disappointed if I already got dressed and ready"
+      },
+      {
+        "id": "H",
+        "text": "Expected it—people always cancel plans anyway"
+      }
+    ]
+  },
+  {
+    "text": "You find a wallet with ₹5,000 cash and an ID card on an empty street. You:",
+    "id": 35,
+    "options": [
+      {
+        "id": "A",
+        "text": "Track down the person via the ID/social media and return every rupee"
+      },
+      {
+        "id": "B",
+        "text": "Hand it over to the nearest police station or campus security"
+      },
+      {
+        "id": "C",
+        "text": "Wait at that exact spot for 15 minutes hoping they come back"
+      },
+      {
+        "id": "D",
+        "text": "Call a friend to ask what the safest way to return it is"
+      },
+      {
+        "id": "E",
+        "text": "Return the ID and cards, keep a tiny \"finder's fee\" (honest answer)"
+      },
+      {
+        "id": "F",
+        "text": "Leave it where it is—don't want to get involved in anything risky"
+      },
+      {
+        "id": "G",
+        "text": "Post it on local WhatsApp/Instagram groups to find the owner"
+      },
+      {
+        "id": "H",
+        "text": "Return it and refuse any reward they offer"
+      }
+    ]
+  },
+  {
+    "text": "In a group project or team event, the role you naturally end up taking is:",
+    "id": 36,
+    "options": [
+      {
+        "id": "A",
+        "text": "The Leader—assigning tasks, tracking deadlines, keeping things moving"
+      },
+      {
+        "id": "B",
+        "text": "The Ideas Person—coming up with the creative concept"
+      },
+      {
+        "id": "C",
+        "text": "The Executor—quietly doing the hardest technical/actual work"
+      },
+      {
+        "id": "D",
+        "text": "The Presenter—handling the talking, pitching, and people skills"
+      },
+      {
+        "id": "E",
+        "text": "The Fixer—solving last-minute emergencies when things break"
+      },
+      {
+        "id": "F",
+        "text": "The Morale Booster—keeping everyone sane and bringing snacks"
+      },
+      {
+        "id": "G",
+        "text": "The Solo Worker—prefers doing my own section independently"
+      },
+      {
+        "id": "H",
+        "text": "The Last-Minute Savior—pulling an all-nighter before submission"
+      }
+    ]
+  },
+  {
+    "text": "If you suddenly got ₹50,000 with the rule that you MUST spend it in 48 hours:",
+    "id": 37,
+    "options": [
+      {
+        "id": "A",
+        "text": "Book an instant flight/trip to the mountains or beaches"
+      },
+      {
+        "id": "B",
+        "text": "Upgrade my phone, laptop, or desk setup"
+      },
+      {
+        "id": "C",
+        "text": "Buy gifts for parents, siblings, and closest friends"
+      },
+      {
+        "id": "D",
+        "text": "Wardrobe overhaul—sneakers, jackets, watches, perfumes"
+      },
+      {
+        "id": "E",
+        "text": "Fine dining, concert tickets, and an epic weekend with friends"
+      },
+      {
+        "id": "F",
+        "text": "Buy gold or crypto/stocks (finding a loophole in the rule)"
+      },
+      {
+        "id": "G",
+        "text": "Donate half to an animal shelter/charity and enjoy the rest"
+      },
+      {
+        "id": "H",
+        "text": "Host a massive treat/party for everyone I know"
+      }
+    ]
+  },
+  {
+    "text": "What kind of conversation makes you lose track of time?",
+    "id": 38,
+    "options": [
+      {
+        "id": "A",
+        "text": "Deep 2 AM talks about life, psychology, and future dreams"
+      },
+      {
+        "id": "B",
+        "text": "Startups, tech, money, and crazy business ideas"
+      },
+      {
+        "id": "C",
+        "text": "Movies, music, anime, and pop-culture theories"
+      },
+      {
+        "id": "D",
+        "text": "Non-stop roasting, memes, and stupid hypothetical scenarios"
+      },
+      {
+        "id": "E",
+        "text": "Travel stories, bucket lists, and exploring the world"
+      },
+      {
+        "id": "F",
+        "text": "Philosophy, space, mysteries, and \"what if\" questions"
+      },
+      {
+        "id": "G",
+        "text": "Childhood nostalgia, school stories, and core memories"
+      },
+      {
+        "id": "H",
+        "text": "Healthy debates where both people share different perspectives"
+      }
+    ]
+  },
+  {
+    "text": "How do you handle mistakes or embarrassing moments?",
+    "id": 39,
+    "options": [
+      {
+        "id": "A",
+        "text": "Laugh at myself immediately—makes it 10x less awkward"
+      },
+      {
+        "id": "B",
+        "text": "Replay it in my head every night at 2 AM for the next 5 years"
+      },
+      {
+        "id": "C",
+        "text": "Own up to it openly and move on"
+      },
+      {
+        "id": "D",
+        "text": "Pretend it was completely intentional"
+      },
+      {
+        "id": "E",
+        "text": "Turn it into a funny story to tell friends later"
+      },
+      {
+        "id": "F",
+        "text": "Over-apologize and feel guilty way longer than needed"
+      },
+      {
+        "id": "G",
+        "text": "Brush it off—nobody actually remembers anyway"
+      },
+      {
+        "id": "H",
+        "text": "Blame my friends for distracting me"
+      }
+    ]
+  },
+  {
+    "text": "What are you genuinely looking for from this matchmaking survey?",
+    "id": 40,
+    "options": [
+      {
+        "id": "A",
+        "text": "A serious, meaningful relationship with the right vibe"
+      },
+      {
+        "id": "B",
+        "text": "Dating casually and seeing where things naturally go"
+      },
+      {
+        "id": "C",
+        "text": "Meeting cool new friends with similar interests"
+      },
+      {
+        "id": "D",
+        "text": "Someone to study, build projects, or hustle with"
+      },
+      {
+        "id": "E",
+        "text": "A gym/sports or food-exploring buddy"
+      },
+      {
+        "id": "F",
+        "text": "Just curious to see who the algorithm pairs me with"
+      },
+      {
+        "id": "G",
+        "text": "Good conversations without any immediate pressure"
+      },
+      {
+        "id": "H",
+        "text": "Honestly, my friends forced me to fill this out"
+      }
+    ]
+  }
+]

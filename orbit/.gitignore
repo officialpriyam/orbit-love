@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.db-*
+*.tar.gz
+.local/
+node_modules/
+.next/
+.preview-build/
+dist/
+tsconfig.tsbuildinfo
+.env.local
+.env.*.local

@@ -1,0 +1,13 @@
+.env
+.env.local
+.env.*.local
+.local/
+.venv/
+.preview-build/
+dist/
+__pycache__/
+.pytest_cache/
+tests/
+*.db
+*.db-*
+*.tar.gz

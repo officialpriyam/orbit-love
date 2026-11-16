@@ -19,22 +19,21 @@ export default function Landing() {
       });
   }
   return (
-    <div ref={root} onClick={choose}>
+    <div className="landing" ref={root} onClick={choose}>
       <main>
         <section className="hero">
           <div className="hero-copy">
             <div className="eyebrow">
-              <i className="dot"></i> GOOD PEOPLE. BETTER CONNECTIONS.
+              <span aria-hidden="true">♡</span> DATING &amp; FRIENDSHIP
             </div>
             <h1>
-              A little less swipe.
-              <br />A lot more
+              A little closer
               <br />
-              <span className="serif">something real.</span>
+              <span className="serif">to love.</span>
             </h1>
             <p>
-              You're more than a good photo. Meet people who get your weird,
-              share your values, and just… click.
+              The best connections start with the little things. Answer 40
+              questions and meet people who share what matters to you.
             </p>
             <div className="hero-actions">
               <a className="btn" href="#register">
@@ -51,35 +50,40 @@ export default function Landing() {
             <div className="hero-note">
               <div className="mini-orbs" aria-hidden="true">
                 <i>✿</i>
-                <i>☻</i>
+                <i>♥</i>
                 <i>✦</i>
               </div>
-              <span>For the slow burns. The deep talks. The real ones.</span>
+              <span>For the slow burns and the late-night talks.</span>
             </div>
           </div>
           <div
             className="hero-art"
-            aria-label="Two animated iridescent rings orbiting each other"
+            aria-label="Two interlocking rose and champagne rings"
           >
             <div className="halo"></div>
             <div className="orbit-path"></div>
             <div className="orbit-path two"></div>
             <canvas id="orbital" aria-hidden="true"></canvas>
-            <span className="star">✧</span>
-            <span className="star second">✦</span>
+            <span className="star" aria-hidden="true">
+              ✧
+            </span>
+            <span className="star second" aria-hidden="true">
+              ♡
+            </span>
+            <span className="orbit-heart" aria-hidden="true">
+              ♥
+            </span>
             <div className="float-card glass match-chip">
-              <span className="chip-icon">✳</span>
+              <span className="chip-icon">♡</span>
               <span>
                 Same wavelength.
                 <br />
-                <small style={{ fontSize: "9px", color: "#7d886d" }}>
-                  Different kind of magic.
-                </small>
+                <small>Shared values. Mutual interest.</small>
               </span>
             </div>
             <div className="float-card glass vibe-card">
               <span className="overline">IT'S THE LITTLE THINGS</span>
-              <h3>Your kind of human.</h3>
+              <h3>Things to fall for.</h3>
               <div className="tags">
                 <span className="tag">☕ Chai & deep talks</span>
                 <span className="tag">♫ Shared playlists</span>
@@ -93,9 +97,7 @@ export default function Landing() {
                 <small>Let your personality make the first move.</small>
               </span>
             </div>
-            <span className="art-caption">
-              Different worlds. A shared orbit.
-            </span>
+            <span className="art-caption">It starts with a little spark.</span>
           </div>
         </section>
         <div className="ribbon">
@@ -315,9 +317,9 @@ export default function Landing() {
           <div className="cta">
             <div className="eyebrow">YOUR PEOPLE ARE OUT THERE</div>
             <h2>
-              Maybe your next chapter
+              Every love story
               <br />
-              starts with <span className="serif">a little hello.</span>
+              starts with <span className="serif">a hello.</span>
             </h2>
             <p>Bring your whole self. We'll help you find the common ground.</p>
             <a className="btn" href="#register">

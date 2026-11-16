@@ -6,6 +6,7 @@ import {
 } from "node:crypto";
 import { Redis } from "@upstash/redis";
 import { transaction, now, production } from "./db";
+import { allowedOrigins } from "./origins";
 const scrypt = (
   password: string,
   salt: string,
@@ -105,13 +106,7 @@ export function checkOrigin(request: Request) {
   )
     throw new HttpError(415, "Use application/json for this request.");
   const origin = request.headers.get("origin");
-  const allowed = (
-    process.env.ALLOWED_ORIGINS ||
-    process.env.APP_URL ||
-    "http://localhost:3000,http://127.0.0.1:3000"
-  )
-    .split(",")
-    .map((s) => s.trim());
+  const allowed = allowedOrigins();
   if (origin && !allowed.includes(origin))
     throw new HttpError(403, "This request origin is not allowed.");
   if (!origin) throw new HttpError(403, "An origin header is required.");

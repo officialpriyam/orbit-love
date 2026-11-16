@@ -45,7 +45,7 @@ The default worker database path points to the sibling app's `.local/orbit.db`. 
 
 Deploy the Next.js app to a Node-compatible host (or its Dockerfile). Deploy the Python folder as a separate persistent container/service. **Sites static hosting is used only for the labelled interactive preview; it cannot run this Node + Python backend.**
 
-Set `APP_ENV=production`, a common Neon `DATABASE_URL`, and the same `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` on both services. Set HTTPS `APP_URL` and exact `ALLOWED_ORIGINS` on Next.js. The Python service additionally needs a random `SERVICE_TOKEN` for its protected status endpoint. Keep the Python port private apart from health monitoring.
+Set `APP_ENV=production`, a common Neon `DATABASE_URL`, and the same `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` on both services. On Next.js, configure exact HTTPS origins or use automatic Vercel deployment origins as described below. The Python service additionally needs a random `SERVICE_TOKEN` for its protected status endpoint. Keep the Python port private apart from health monitoring.
 
 Run `npm run db:init` with deployment credentials, then create the admin out of band. Do not put credentials in source control or `NEXT_PUBLIC_*` variables. Neon connection strings must include TLS settings, such as `sslmode=require`. Configure trusted proxy rate limiting at your ingress in addition to application throttling.
 
@@ -61,7 +61,7 @@ For a repository containing both folders, set **Settings → Build and Deploymen
 
 `orbit/vercel.json` selects Next.js, installs with `npm ci`, and builds with `npm run build`. The `.vercelignore` files exclude local secrets and development artifacts from CLI uploads; the workspace-level file also excludes the Python service. No Python worker is started by the Vercel build.
 
-Configure the Next.js variables from `.env.example` in Vercel, using `APP_ENV=production`, an HTTPS `APP_URL`, and matching HTTPS `ALLOWED_ORIGINS`, plus Neon and Upstash credentials. Keep OpenRouter and email provider keys on the separately hosted Python service. That service must remain running against the same Neon and Upstash instances for matching and notifications to progress. Set its `APP_URL` to the deployed web URL as well. Initialize the schema using `npm run db:init` with the target database configured before starting the worker.
+Configure the Next.js variables from `.env.example` in Vercel, using `APP_ENV=production` plus Neon and Upstash credentials. Do not copy localhost `APP_URL` or `ALLOWED_ORIGINS` values to Vercel. Leave those two variables unset to use Vercel system URLs, or set exact HTTPS custom domains. Keep OpenRouter and email provider keys on the separately hosted Python service. That service must remain running against the same Neon and Upstash instances for matching and notifications to progress. Set its `APP_URL` to the deployed web URL as well. Initialize the schema using `npm run db:init` with the target database configured before starting the worker.
 
 See [Vercel Root Directory settings](https://vercel.com/docs/builds/configure-a-build#root-directory). These files prepare deployment; they do not publish the app or change your Vercel project settings.
 
@@ -87,3 +87,11 @@ Implementation references: [Next.js deployment](https://nextjs.org/docs/app/gett
 
 Admin location controls at `/#admin` independently enable country and city sections. The outside-country switch requires country to be enabled and both participants to opt in. Settings lock after generation starts and carry over to the next round. New required location fields must be completed before generation.
 "# orbit-love" 
+
+## How Next.js connects to Python
+
+The browser calls only the Next.js `/api` endpoints on its own origin. When an admin generates results, Next.js inserts a durable job into Neon and sends an Upstash wake-up notification. The independent Python worker polls the same database, claims the job, generates matches, and writes results back to Neon. Next.js reads them for the dashboard. Publication queues email work in Neon for Python. Redis accelerates discovery; Neon remains the durable queue. No `PYTHON_API_URL` or browser CORS configuration is required. The Python `/v1/status` endpoint is for authenticated operations, not browser access.
+
+Both services need the same `DATABASE_URL`, `UPSTASH_REDIS_REST_URL`, and `UPSTASH_REDIS_REST_TOKEN`. Python must stay running on a persistent host even when Next.js runs on Vercel. Its `APP_URL` must be the public HTTPS website URL so email links open the deployed dashboard. OpenRouter and email provider keys remain only on Python.
+
+On Vercel, enable automatic System Environment Variables. The app accepts exact HTTPS origins from `VERCEL_URL` and `VERCEL_BRANCH_URL`; production also accepts `VERCEL_PROJECT_PRODUCTION_URL`. Additional domains go in comma-separated `ALLOWED_ORIGINS`, and `APP_URL` is also included. No wildcard Vercel domains or request Host headers are trusted. Vercel deployments always use secure cookies and production database checks, even if `APP_ENV` is accidentally set to development. Localhost configuration remains local only. Redeploy after changing environment variables. Use separate database and Redis instances for preview environments if they should not access production participants.

@@ -2,6 +2,8 @@ import { randomUUID } from "node:crypto";
 import path from "node:path";
 import fs from "node:fs";
 import pg from "pg";
+import { allowedOrigins, production } from "./origins";
+export { production } from "./origins";
 
 export interface DbRow extends pg.QueryResultRow {}
 export interface Database {
@@ -34,23 +36,11 @@ const schema = [
 ];
 export const now = () => Date.now() / 1000;
 export const isNeon = () => Boolean(process.env.DATABASE_URL);
-export const production = () =>
-  process.env.APP_ENV === "production" ||
-  (process.env.NODE_ENV === "production" &&
-    process.env.APP_ENV !== "development");
 let initPromise: Promise<void> | null;
 let localQueue: Promise<unknown> = Promise.resolve();
 function configCheck() {
   if (production()) {
-    const origins = (process.env.ALLOWED_ORIGINS || "")
-      .split(",")
-      .filter(Boolean);
-    if (
-      !process.env.APP_URL?.startsWith("https://") ||
-      !origins.length ||
-      origins.some((o) => !o.trim().startsWith("https://"))
-    )
-      throw Error("Production requires explicit HTTPS application origins");
+    allowedOrigins();
     if (!process.env.UPSTASH_REDIS_REST_URL?.startsWith("https://"))
       throw Error("Production requires HTTPS Redis");
     const database = new URL(
